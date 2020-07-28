@@ -33,6 +33,6 @@ jobs:
     - name: App Service Deploy
       uses: Azure/webapps-deploy@v2
       with:
-        app-name: ghpetclinic
+        app-name: testpc
         publish-profile: ${{ secrets.PUBLISH_PROFILE }}
         package: target/spring-petclinic-2.2.9.jar
